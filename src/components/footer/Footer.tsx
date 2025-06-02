@@ -86,33 +86,17 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://discord.com/"
+                      href="https://www.ultrafarma.com.br/"
                     >
-                      Discord
+                      Ultrafarma
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.playstation.com/pt-br"
+                      href="https://www.drogariasaopaulo.com.br/"
                     >
-                      Playstation
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.xbox.com/pt-BR"
-                    >
-                      Xbox
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.nintendo.com/pt-br/"
-                    >
-                      Nintendo
+                      Drogaria São Paulo
                     </a>
                   </li>
                 </ul>

@@ -8,7 +8,7 @@ function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           <div className="flex items-center gap-2">
             <GameControllerIcon size={32} />
-            <p>Loja de Jogos</p>
+            <p>Farmácia Ga-mes</p>
           </div>
         </Link>
         <div className="lg:!flex lg:flex-auto lg:ml-12 max-lg:hidden max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50">
@@ -32,7 +32,7 @@ function Navbar() {
               </li>
             </ul>
 
-            <ul className="lg:flex lg:items-center ml-auto max-lg:block lg:space-x-8 ml-auto">
+            <ul className="lg:flex lg:items-center max-lg:block lg:space-x-8 ml-auto">
               <li className="max-lg:border-b max-lg:py-3 max-lg:mt-2">
                 <Link
                   to="/contato"
@@ -54,9 +54,11 @@ function Navbar() {
           >
             Categorias
           </Link>
-          <button className="px-4 py-2.5 text-sm rounded font-bold text-white border-2 border-[#1d294f] bg-[#1d294f] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#1d294f]">
-            Crie uma categoria
-          </button>
+          <Link to="/cadastrarcategoria">
+            <button className="px-4 py-2.5 text-sm rounded font-bold text-white border-2 border-[#1d294f] bg-[#1d294f] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#1d294f]">
+              Crie uma categoria
+            </button>
+          </Link>
         </div>
       </div>
     </header>
