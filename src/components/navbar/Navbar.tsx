@@ -5,19 +5,18 @@ function Navbar() {
   return (
     <header className="flex border-b py-4 px-4 sm:px-10 bg-white font-sans min-h-[70px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center gap-4 w-full">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="flex items-center gap-2">
-            <GameControllerIcon size={32} />
-            <p>Farmácia Ga-mes</p>
-          </div>
-        </Link>
+        <div className="flex items-center gap-2">
+          <GameControllerIcon size={32} />
+          <p>Farmácia Ga-mes</p>
+        </div>
+
         <div className="lg:!flex lg:flex-auto lg:ml-12 max-lg:hidden max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50">
           <div className="lg:!flex lg:flex-auto max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
             <ul className="lg:flex lg:gap-x-8 max-lg:space-y-2">
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
                   to="/home"
-                  className="hover:text-[#007bff] text-[#007bff] block font-bold text-[15px]"
+                  className="hover:text-[#0056b3] transition-colors duration-300 text-[#007bff] block font-bold text-[15px]"
                 >
                   Home
                 </Link>
