@@ -3,6 +3,7 @@ import {
   InstagramLogoIcon,
   LinkedinLogoIcon,
 } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="relative bg-blueGray-200 pt-8 pb-6">
@@ -23,7 +24,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="LinkedIn"
                 >
-                  <LinkedinLogoIcon size={48} weight="bold" />
+                  <LinkedinLogoIcon size={32} weight="bold" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/luiz-henrique-machado/"
@@ -31,7 +32,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="LinkedIn"
                 >
-                  <InstagramLogoIcon size={48} weight="bold" />
+                  <InstagramLogoIcon size={32} weight="bold" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/luiz-henrique-machado/"
@@ -39,7 +40,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="LinkedIn"
                 >
-                  <FacebookLogoIcon size={48} weight="bold" />
+                  <FacebookLogoIcon size={32} weight="bold" />
                 </a>
               </div>
             </div>
@@ -52,17 +53,17 @@ function Footer() {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a
+                    <Link
+                      to="/sobre"
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-profile"
                     >
                       Sobre a loja
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-profile"
+                      href="https://blogpessoal-react-rosy.vercel.app/home"
                     >
                       Blog
                     </a>
@@ -70,7 +71,7 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                      href="https://github.com/scottineo"
                     >
                       Github
                     </a>
@@ -85,7 +86,7 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
+                      href="https://discord.com/"
                     >
                       Discord
                     </a>
@@ -93,7 +94,7 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms?ref=njs-profile"
+                      href="https://www.playstation.com/pt-br"
                     >
                       Playstation
                     </a>
@@ -101,7 +102,7 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy?ref=njs-profile"
+                      href="https://www.xbox.com/pt-BR"
                     >
                       Xbox
                     </a>
@@ -109,7 +110,7 @@ function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us?ref=njs-profile"
+                      href="https://www.nintendo.com/pt-br/"
                     >
                       Nintendo
                     </a>
